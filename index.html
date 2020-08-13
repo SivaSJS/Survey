@@ -1,0 +1,76 @@
+<html> 
+  <head>
+    <body>
+<link rel="stylesheet" href="style.css">
+<h1 id="title">School Survey Form</h1>
+
+<p id="description">Thank you for taking the time to help us improve </p>
+
+<div id="body">
+
+<form id="survey-form">
+  
+  <label id="name-label" for="name">
+  <p>Name:</p>
+  </label>
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+  
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+  
+   <label id="number-label" for="number">
+  <p>Age:</p>
+  </label>
+  
+  <input id="number" type="number" placeholder="Enter Your Age" min="12" max="69" required>
+  
+  <p>how often do you Read the school news letter?</p>
+  <select id="dropdown">
+    </head>
+    <option value="daily"> Daily </option>
+    <option value="Ew"> Every Week  </option>
+    <option value="MM">Most Months </option>
+    <option value="EM">Every Month</option>
+    <option value="O" Ocassionaly></option>
+    <option value="N">Not</option>
+    <option value="notaa"> Not at all</option>
+    
+  </select>
+  
+  <p>Do you Believe that the school newsletter is a valuable source of news and information?</p>
+  
+  <input type="radio" name="timing" value="#">Extremely Valuable</input>
+  <br>
+  <input type="radio" name="timing" value="#">Very valuable</input>
+  <br>
+ <input type="radio" name="time" value="#">Moderately Valuable</input>
+<br>
+ <input type="radio" name="time" value="#">Slightly Valuable</input>
+<br>
+
+<p>
+Visitaion of library?</p>
+
+<input type="checkbox" name="library" value="#">Everyday</input>
+<br>
+ <input type="checkbox" name="library" value="#">EveryWeek </input>
+<br>
+ <input type="checkbox" name="library" value="#">Sometimes</input>
+<br>
+ <input type="checkbox" name="library" value="#">Hardlyever</input>
+<br>
+ <input type="checkbox" name="library" value="#">never</input>
+<br>
+
+<textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+            
+</form>
+
+</div>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
